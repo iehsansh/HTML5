@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border:1px solid black;
+            }
+        </style>
+    </head>
+        <body>
+            <head><h1>Ehsan test HTML</h1></head>
+            <nav></nav>
+            <section>
+                <table style="width: 20%">
+                    <tr>
+                        <th>col1</th>
+                        <th>col2</th>
+                        <th>col3</th>
+                    </tr>
+                    <tr>
+                        <td>col1</td>
+                        <td>col2</td>
+                        <td>col3</td>
+                    </tr>
+                </table>
+            </section>
+            <article>
+                <form action="form.php" method="post">
+                    <div>
+                        <label for="textId">Name:</label>
+                        <input type="text" id="textId" name="Name" placeholder="Enter your Name" required>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="passId">Password</label>
+                        <input type="password" id="passId" name="passName" maxlength="8">
+                    </div>
+                    <div>
+                        <label for="fGenderId">FEMALE</label>
+                        <input type="radio" id="fGenderId" name="gender" value="female">
+                        <label for="mGenderId">MALE</label>
+                        <input type="radio" id="mGenderId" name="gender" value="male">
+                    </div>
+                    <div>
+                        <label for="englishId">English</label>
+                        <input type="checkbox" id="englishId" name="englishName" value="english">
+                        <label for="farsiId">Farsi</label>
+                        <input type="checkbox" id="farsiId" name="farsiName" value="farsi">
+                        <label for="russianId">Russian</label>
+                        <input type="checkbox" id="russianId" name="russianName" value="russian">
+                    </div>
+                    <div>
+                        <label for="selectId"></label>
+                        <select name="selectName" id="selectId" size="5" multiple>
+                            <option value="A">Class A</option>
+                            <option value="B">Class B</option>
+                            <option value="C">Class C</option>
+                            <option value="D">Class D</option>
+                            <option value="E">Class E</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <div>
+                        <input type="file" id="fileId" name="fileName">
+                        <label for="fileId">Your image</label>
+                    </div>
+                    <br><br>
+                    <div>
+                        <textarea name="textareaName" id="textareaId" cols="40" rows="20"></textarea>
+                    </div>
+    
+                    <br>
+                    <div>
+                        <input type="submit" value="Click to submit">
+                        <input type="reset" value="Clear">
+                    </div>
+    
+                </form>
+    
+            </article>
+            <aside>
+                <img src="images/mattrin.png" alt="Mattrin's logo">
+                <a href="coding.html">Coding page</a>
+                <br><br><br>
+            </aside>
+            <footer>
+
+            </footer>
+
+            
+
+
+        </body>
+</html>
